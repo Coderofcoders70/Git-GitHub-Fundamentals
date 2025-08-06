@@ -1,0 +1,16 @@
+1. Create a New Repository on GitHub:
+2. Initialize Git in Your Project Folder:
+3. Initialize a new Git repository by running: 
+    git init 
+4. Stage Your Files:
+Add all your project files to the Git staging area by running: 
+   git add .
+5. Commit Your Changes:
+Create a new commit with the staged files and a descriptive message by running: 
+    git commit -m "Initial commit of my project".
+6. Add a Remote Origin:
+Link your local repository to the remote GitHub repository by running: 
+    git remote add origin <your_remote_repository_URL>.
+7. Push Your Project to GitHub:
+Push your committed changes to the remote repository by running: 
+    git push -u origin main.
