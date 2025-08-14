@@ -1,0 +1,8 @@
+Working with GIT in Graphical Interface
+
+Steps to repeat:
+1. Open your repository in VSCode or Sourcetree, modify an existing file and add a new folder with a file inside.
+2. Stage the modified and newly created files using GUI. 
+3. Commit your changes with a clear commit message.
+4. Repeat staging and committing steps using a different GUI application. 
+5. Add or modify another file, stage all changes (git add .), and commit via command line.

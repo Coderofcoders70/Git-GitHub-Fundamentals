@@ -1,0 +1,28 @@
+Branching
+
+# Terminology:
+
+-> Branch – an independent version of your repository that allows you to safely develop features or make changes without affecting the main (or master) branch.
+
+-> Merge – combining changes from one branch into another.
+
+Steps to repeat
+
+Create a new branch:
+1. git branch new_branch
+2. or directly switch: git checkout -b new_branch
+3. Switch between branches:
+4. git checkout branch_name or git switch branch_name.
+5. Create a branch from a previous commit:
+6. Switch to specific commit (git checkout <hash>), then create branch from it:git switch -c branch_from_old_commit.
+7. Modify files and commit changes to the newly created branches.
+8. Merge branch into master:
+9. Switch to master branch:git checkout master
+10. Merge branch:git merge branch_name
+11. Perform squash merge to combine multiple commits into one:
+12. git merge --squash source_branch
+13. Manage branches with GUI:
+14. Create, switch, merge, and delete branches in VSCode or Sourcetree GUI.
+15. Delete branches:
+16. Terminal:git branch --delete branch_name
+17. GUI: right-click branch and select delete.

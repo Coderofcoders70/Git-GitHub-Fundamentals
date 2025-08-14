@@ -1,0 +1,10 @@
+Viewing history of changes
+
+Steps to repeat:
+1. View commit history in terminal with git log and use git log --oneline for shorter output.
+2. Filter commit history by author or date using options like --author, --since, and --until.
+3. View commit history in VSCode using Git History extension.
+4. View commit history and file changes in Sourcetree.
+5. View previous file versions in terminal with git show <commit_hash> <file_path>.
+6. Compare commits using git diff <hash1> <hash2> <file_path>.
+7. Navigate to previous commits with git checkout <commit_hash> and return to latest commit with git checkout main.

@@ -1,0 +1,8 @@
+Setup working environment
+
+Steps to repeat:
+1. Check, if git is installed with git --version.
+2. If not, download git from https://git-scm.com/ and install it.
+3. Configure username and email address:
+    a. git config --global user.name "Your Username".
+    b. git config --global user.email "your.email@example.com".
