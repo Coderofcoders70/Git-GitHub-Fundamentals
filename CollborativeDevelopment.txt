@@ -1,0 +1,35 @@
+# Collaborative development
+
+Terminology:
+1. Remote Repository – A shared repository hosted remotely (GitHub, GitLab) for collaboration.
+2. Fetch – Retrieves updates from the remote repository without merging.
+3. Pull – Retrieves updates and merges them into your current branch.
+4. Push – Uploads local commits to the remote repository.
+
+Steps to repeat:
+1. Create a remote repository on GitHub or GitLab.
+2. Connect your local repository to the remote by running:
+    a. git remote add origin <repository_url>
+    b. git push -u origin master
+3. Push local changes to remote using:
+-> git push:  
+
+4. Edit files directly in the remote repository interface and commit changes.
+
+5. Update your local repository by running:
+-> git fetch
+-> git pull
+
+6. Create and view remote branches:
+    View remote branches: git branch -r
+
+7. Fetch branches: git fetch
+
+8. Merge remote branches:
+    a. git merge origin/branch_name
+ 
+9. Update files in remote repository interface, fetch and pull those changes locally:
+-> git fetch
+-> git pull
+ 
+10. Explore remote branches in GUI tools (Sourcetree, VSCode).

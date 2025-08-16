@@ -1,0 +1,13 @@
+# Resolving conflicts
+
+Terminology:
+-> Merge Conflict – occurs when Git cannot automatically merge changes from two branches.
+
+Steps to repeat:
+1. Modify the same line in a file in two separate branches.
+2. Attempt to merge these branches (git merge branch_name) and identify conflicts.
+3. Open the conflicted file to manually resolve conflicts, editing conflicting sections marked by Git (<<<<<<<, =======, >>>>>>>).
+4. Stage the resolved files (git add file_name), then complete merge (git merge --continue).
+5. Verify the merge result in a GUI tool (e.g., Sourcetree or VSCode).
+6. Repeat conflict resolution using VSCode's Merge Editor.
+7. Complete or abort the merge (git merge --continue or git merge --abort).
