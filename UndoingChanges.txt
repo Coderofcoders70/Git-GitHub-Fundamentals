@@ -1,0 +1,9 @@
+# Undoing changes
+
+Steps to repeat:
+1. Modify a file without committing, then discard changes using the GUI (VSCode Source Control Panel).
+2. Make unwanted changes, commit them, and revert the commit:
+3. Using GUI (Sourcetree) with the "revert" option.
+4. Using command line: git revert <commit_hash>.
+5. Confirm the reverted changes appear correctly.
+6. Practice viewing commit hashes using git log and revert a commit from the command line.

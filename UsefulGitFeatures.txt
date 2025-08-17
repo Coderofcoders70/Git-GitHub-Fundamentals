@@ -1,0 +1,8 @@
+# Useful GIT features
+
+Steps to repeat:
+1. Create a .gitignore file and specify files or patterns to ignore.
+2. Clone an existing remote repository using git clone <repository_url>.
+3. Merge latest changes from the main branch into your branch or use git rebase.
+4. Use git cherry-pick to apply specific commits from other branches.
+(Resolve conflicts with git cherry-pick --continue.)
