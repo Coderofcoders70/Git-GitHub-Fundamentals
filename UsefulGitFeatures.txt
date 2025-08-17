@@ -5,4 +5,4 @@ Steps to repeat:
 2. Clone an existing remote repository using git clone <repository_url>.
 3. Merge latest changes from the main branch into your branch or use git rebase.
 4. Use git cherry-pick to apply specific commits from other branches.
-(Resolve conflicts with git cherry-pick --continue.)
+(Resolve conflicts with git cherry-pick --continue).
