@@ -1,0 +1,10 @@
+# Pull requests and code review
+
+Steps to repeat:
+
+1. Configure branch protection in GitLab to prevent direct pushes to master.
+2. Test restrictions by attempting a direct push (git push origin master).
+3. Create a new branch, commit your changes, and push it to remote.
+4. Create a Pull Request (Merge Request) in GitLab with your branch.
+5. Review changes, address comments if needed, and push additional commits.
+6. Merge your branch into master after approval via GitLab interface.
