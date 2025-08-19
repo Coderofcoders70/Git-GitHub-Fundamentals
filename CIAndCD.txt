@@ -1,0 +1,23 @@
+# Introduction to CI / CD
+
+CI/CD in GitHub refers to the implementation of Continuous Integration and Continuous Delivery/Deployment practices using GitHub's built-in automation platform, GitHub Actions.
+
+-> Continuous Integration (CI):
+This practice involves automatically and frequently merging code changes from multiple developers into a central shared repository. 
+
+In GitHub, when developers push code or create pull requests, CI workflows (defined in GitHub Actions) can be triggered to:
+
+1. Build the code: Compile the application and its dependencies.
+2. Run automated tests: Execute unit tests, integration tests, and other automated checks to ensure the new code doesn't introduce regressions or bugs.
+3. Provide feedback: Report the status of the build and tests back to the developers, allowing for early detection and resolution of issues.
+4. Continuous Delivery/Deployment (CD):
+This extends CI by automating the release process.
+
+-> Continuous Delivery:
+After successful CI, the code is automatically prepared for release to production. This often involves packaging the application, running further tests (like acceptance tests), and making it available for manual deployment to production. A human approval step is typically involved before the final release.
+
+-> Continuous Deployment:
+This takes continuous delivery a step further by automatically deploying the application to production after all automated tests pass, without manual intervention.
+
+# How GitHub Actions enables CI/CD:
+GitHub Actions allows you to define these CI/CD workflows using YAML files within your repository. These workflows can be triggered by various events (e.g., pushes, pull requests, scheduled events) and can execute a series of steps, including building, testing, packaging, and deploying your application to various environments. This integration within GitHub provides a seamless and automated way to manage your software development and release cycles.
